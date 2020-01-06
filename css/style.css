@@ -18,6 +18,97 @@
 		display: block;
 		color: white;
 	}
+	
+	/* cliente
+	--------------------------------------------- */
+	.cliente{
+		filter: opacity(90%) !important;
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center;
+		height: 275px;
+		width: 100%;
+	}
+
+	.clienteh1 {
+		background-color: rgba(45, 45, 45, 0.8);
+		color: #fff;
+		font-size: 28px;
+		line-height: 43px;
+		line-height: 4.3rem;
+		padding: 1% 1.6%;
+		text-transform: uppercase;
+		display: inline-block;
+		font-weight: 600;
+		margin: 100px 0 0;
+	}
+
+	.breadcrumbs {
+		background-color: rgba(255, 255, 255, 0.8);
+		color: #2D2D2D;
+		display: table;
+		font-size: 14px;
+		font-size: 1.4rem;
+		padding: 0.85% 1.8%;
+		text-transform: uppercase;
+	}
+
+	.breadcrumbs a {
+		color: #2D2D2D;
+		text-decoration: none;
+	}
+
+	.breadcrumbs a:hover{
+		color: rgb(68, 0, 100);
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.clienteColor {
+		color: rgb(68, 0, 100);
+		font-weight: bold;
+	}
+
+	.clienteTitulo{
+		text-transform: uppercase;
+	}
+
+	.clienteTitulo span{
+		font-weight: bold;
+		color: rgb(68, 0, 100);
+	}
+
+	.aquio {
+		color: rgb(68, 0, 100);
+	}
+
+		
+	.lista-cliente{
+		margin: 0;
+		padding: 0;
+	}
+	.lista-cliente li {
+		display: inline-block;
+		vertical-align: middle;
+		width: 14%;
+		text-align: center;
+		margin: 0 1% 5%;
+	}
+
+	.lista-cliente li img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	@media (max-width: 540px){
+		.lista-cliente li {
+			margin-left: 4%;
+			margin-right: 4%;
+			width: 40%;
+		}
+	}
+
+
 
 	/* Botões
 	-------------------------------------------- */
@@ -32,10 +123,16 @@
 		.mynav li:not(:last-child) {
 			margin-right: 20px;
 		}
+
+		.mynav:hover a:not(:hover){
+			-webkit-filter: grayscale(1);
+			filter: grayscale(1);
+		  	opacity: .75;
+		}
 		
 		.mynav a {
 			display: block;
-			font-size: 20px;
+			font-size: 20px !important;
 			color: black;
 			text-decoration: none;
 			padding: 7px 15px;
@@ -186,3 +283,37 @@
 	  margin-top: 7rem;
 	}
   }
+
+
+}
+
+
+
+	/* Empresa
+	--------------------------------------------- */
+	.empresa{
+		filter: opacity(90%) !important;
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center;
+		height: 275px;
+		width: 100%;
+	}
+
+	.empresah1 {
+		background-color: rgba(45, 45, 45, 0.8);
+		color: #fff;
+		font-size: 28px;
+		line-height: 43px;
+		line-height: 4.3rem;
+		padding: 1% 1.6%;
+		text-transform: uppercase;
+		display: inline-block;
+		font-weight: 600;
+		margin: 100px 0 0;
+	}
+
+	.empresacolor {
+		color: rgb(218, 0, 0);
+		font-weight: bold;
+	}
